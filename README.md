@@ -41,6 +41,7 @@ Pentes mesurées sur l'erreur en échelle log-log :
 | Point milieu, grille d=2 | −1,00 (en N = n² évaluations) |
 | Point milieu, grille d=3 | −0,67 (en N = n³ évaluations) |
 | Monte Carlo d=3 | −0,50 |
+<img width="1440" height="576" alt="ordres_de_convergence" src="https://github.com/user-attachments/assets/9febe42d-9db1-481b-b018-f70c90ae32f9" />
 
 Lecture : à nombre d'évaluations N fixé, la grille perd en efficacité quand la dimension augmente (N^-2, N^-1, N^-2/3), alors que Monte Carlo reste en N^-1/2 quelle que soit la dimension. C'est ce qui le rend incontournable en grande dimension ou sur un domaine irrégulier.
 
@@ -57,4 +58,4 @@ Remarque : la somme de Riemann à gauche converge ici à l'ordre 2 (comme le poi
     pip install numpy scipy matplotlib      # + ffmpeg installé
     python integrales_multiples.py
 
-Produit dans `results/` : `integrales_multiples.mp4`, `ordres_de_convergence.png`, `resultats.md`.
+Produit dans `results/` : `integrales_multiples.mp4`
